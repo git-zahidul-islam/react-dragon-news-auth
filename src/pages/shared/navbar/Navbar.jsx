@@ -32,7 +32,7 @@ const Navbar = () => {
                         <img alt="Tailwind CSS Navbar component" src={user} />
                     </div>
                 </div>
-                <Link className="bg-gray-300 px-6 py-2">Login</Link>
+                <Link to={'/login'} className="bg-gray-300 px-6 py-2">Login</Link>
             </div>
         </div>
     );
